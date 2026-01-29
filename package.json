@@ -1,0 +1,31 @@
+{
+  "name": "us-state-normalizer",
+  "version": "1.0.2",
+  "description": "Normalize US state names and abbreviations",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "test",
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pusi2316/us-state-normalizer.git"
+  },
+  "keywords": [
+    "TypeScrip",
+    "us",
+    "states",
+    "normalize",
+    "abbreviation"
+  ],
+  "author": "pusi2316",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pusi2316/us-state-normalizer/issues"
+  },
+  "homepage": "https://github.com/pusi2316/us-state-normalizer#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
