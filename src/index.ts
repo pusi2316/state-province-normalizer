@@ -59,7 +59,7 @@ const US_STATES = {
     {} as Record<string, string>,
   );
   
-  export function normalizeState(input?: string): string | null {
+  export function normalizeState(input: string): string | null {
     if (!input) return null;
   
     const clean = input.trim().toLowerCase();
@@ -78,7 +78,7 @@ const US_STATES = {
     return null;
   }
   
-  export function stateAbbrToName(abbr?: string): string | null {
+  export function stateAbbrToName(abbr: string): string | null {
     if (!abbr) return null;
     if (abbr.length > 2) {
       return abbr.charAt(0).toUpperCase() + abbr.slice(1).toLowerCase();
