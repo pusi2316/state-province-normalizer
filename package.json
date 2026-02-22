@@ -1,7 +1,7 @@
 {
-  "name": "us-state-normalizer",
-  "version": "1.0.2",
-  "description": "Normalize US state names and abbreviations",
+  "name": "state-province-normalizer",
+  "version": "2.0.0",
+  "description": "Normalize state and province names and abbreviations",
   "main": "dist/index.js",
   "scripts": {
     "test": "test",
@@ -15,9 +15,17 @@
   "keywords": [
     "TypeScrip",
     "us",
+    "united states",
+    "usa",
     "states",
     "normalize",
-    "abbreviation"
+    "abbreviation",
+    "provinces",
+    "canada",
+    "ca",
+    "state",
+    "province",
+    "north america"
   ],
   "author": "pusi2316",
   "license": "MIT",
