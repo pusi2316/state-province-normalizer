@@ -1,10 +1,10 @@
 {
-  "name": "us-state-normalizer",
-  "version": "1.0.2",
-  "description": "Normalize US state names and abbreviations",
+  "name": "state-province-normalizer",
+  "version": "2.0.0",
+  "description": "Normalize state and province names and abbreviations",
   "main": "dist/index.js",
   "scripts": {
-    "test": "test",
+    "test": "jest",
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
@@ -15,17 +15,35 @@
   "keywords": [
     "TypeScrip",
     "us",
+    "united states",
+    "usa",
     "states",
     "normalize",
-    "abbreviation"
+    "abbreviation",
+    "provinces",
+    "canada",
+    "ca",
+    "state",
+    "province",
+    "north america"
   ],
   "author": "pusi2316",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pusi2316/us-state-normalizer/issues"
   },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.test.ts"
+    ]
+  },
   "homepage": "https://github.com/pusi2316/us-state-normalizer#readme",
   "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
     "typescript": "^5.9.3"
   }
 }
