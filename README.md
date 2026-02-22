@@ -72,12 +72,12 @@ const cleanedData = userData.map(user => ({
 
 ## API Reference
 
-### `normalizeState(input?: string): string | null`
+### `normalizeState(input: string): string | null`
 
 Normalizes a state name or abbreviation to a standard two-letter abbreviation.
 
 **Parameters:**
-- `input` (optional): A state name or abbreviation (case-insensitive)
+- `input`: A state name or abbreviation (case-insensitive)
 
 **Returns:**
 - Two-letter state abbreviation in uppercase, or `null` if invalid
@@ -94,7 +94,7 @@ normalizeState('invalid')     // null
 Converts a state abbreviation to its full name.
 
 **Parameters:**
-- `abbr` (optional): A two-letter state abbreviation (case-insensitive)
+- `abbr`: A two-letter state abbreviation (case-insensitive)
 
 **Returns:**
 - Full state name in title case, or `null` if invalid
