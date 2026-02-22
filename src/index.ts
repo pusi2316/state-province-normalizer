@@ -99,9 +99,6 @@ export function normalizeRegion(input: string): string | null {
 
 export function regionAbbrToName(abbr: string): string | null {
   if (!abbr) return null;
-  if (abbr.length > 2) {
-    return abbr.charAt(0).toUpperCase() + abbr.slice(1).toLowerCase();
-  }
   const upper = abbr.toUpperCase();
   if (CANADIAN_PROVINCES[upper as keyof typeof CANADIAN_PROVINCES]) {
     return CANADIAN_PROVINCES[upper as keyof typeof CANADIAN_PROVINCES];
