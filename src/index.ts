@@ -97,7 +97,7 @@ export function normalizeRegion(input: string): string | null {
   return null;
 }
 
-export function RegionAbbrToName(abbr: string): string | null {
+export function regionAbbrToName(abbr: string): string | null {
   if (!abbr) return null;
   if (abbr.length > 2) {
     return abbr.charAt(0).toUpperCase() + abbr.slice(1).toLowerCase();
